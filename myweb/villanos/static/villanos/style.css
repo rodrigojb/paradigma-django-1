@@ -1,0 +1,14 @@
+.main-tittle {
+    color: darkblue;
+}
+
+.box {
+    display: block;
+    min-height: auto;
+    min-width: 1024px;
+    margin: 200px;
+    overflow: auto;
+    border: 1px gray solid;
+    padding: 30px;
+    text-align: center;
+}

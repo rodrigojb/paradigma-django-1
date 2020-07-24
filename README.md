@@ -19,7 +19,7 @@ Desde las vistas podemos acceder a otras vistas o a otros 2 bloques, los modelos
 - Que son los modelos? Los modelos de BD
 - Que son los templates? Son nuestra capa de renderizado, donde vamos a renderizar la info de las vistas, para mostrarlo al usuario.
 
-Cual es la diferencia con el MCV:
+Cual es la diferencia con el patrón MCV:
 - EL controlador de MCV seria la vista en MVT.
 - La vista de MCV seria el template en MVT.
 

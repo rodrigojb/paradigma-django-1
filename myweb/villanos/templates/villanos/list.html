@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'villanos/style.css' %}">
+</head>
+<body>
+    <div class="box">
+        <h2 class="main-tittle">Listado villanos</h2>
+        Existen {{ listado_villanos|length }} villanos
+        <ul>
+            {% for villano in listado_villanos%}
+                <li>{{ villano.nombre }} - 
+                    {% if villano.recompensa > 150000 %}
+                        Este villano tiene mucha recompensa.
+                    {% else %}
+                        {{ villano.recompensa }}{{ villano.moneda }}
+                    {% endif %}
+                </li>
+            {% endfor %}
+        </ul>
+
+        <h5>El villano más caro es {{ villano_mas_caro.nombre }}.</h5>
+    </div>
+</body>
+</html>

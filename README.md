@@ -30,7 +30,7 @@ De esta forma, si cambiamos una url, no tenemos que cambiarla en cada lugar que 
 
 Comandos utiles:
 
-django-admin startproject <nombre> - Crea el proyecto de django con el nombre especificado
-python manage.py startapp <nombre> - Crea una aplicacion con el nombre especificado sobre el proyecto general
-python manage.py run server - Arranca el servidor de Django
-python manage.py migrate - Aplica las migraciones
+- django-admin startproject <nombre> - Crea el proyecto de django con el nombre especificado
+- python manage.py startapp <nombre> - Crea una aplicacion con el nombre especificado sobre el proyecto general
+- python manage.py run server - Arranca el servidor de Django
+- python manage.py migrate - Aplica las migraciones
